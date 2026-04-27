@@ -4,41 +4,62 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Chapter 13 Bankruptcy — Open Bankruptcy Project</title>
-<meta name="description" content="Educational reference on Chapter 13 bankruptcy: plan structure, confirmation requirements, modification, completion, discharge framework.">
+<meta name="description" content="Chapter 13 hub: 41% discharge rate vs 37% dismissal (essentially coin flip), 4.7-year median completion. Plan structure, confirmation, modification, discharge.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://chapter-13.openbankruptcyproject.org/">
 <meta property="og:title" content="Chapter 13 Bankruptcy — Open Bankruptcy Project">
-<meta property="og:description" content="Educational reference on Chapter 13 bankruptcy: plan structure, confirmation requirements, modification, completion, discharge framework.">
+<meta property="og:description" content="Chapter 13 hub: 41% discharge rate vs 37% dismissal (essentially coin flip), 4.7-year median completion. Plan structure, confirmation, modification, discharge.">
 <meta property="og:type" content="article">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('js',new Date());gtag('config','G-FTWLM223G7');</script>
 <style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-max-width:820px;margin:0 auto;padding:2rem 1rem;line-height:1.65;color:#1a1a1a;background:#fafafa}
-h1{font-size:2rem;line-height:1.2;margin:0 0 0.5rem}
-h2{font-size:1.4rem;margin:2rem 0 0.75rem;color:#0c5cb6}
-h3{font-size:1.1rem;margin:1.5rem 0 0.5rem}
-.lead{font-size:1.1rem;color:#444;margin:0 0 2rem}
+max-width:880px;margin:0 auto;padding:2rem 1rem;line-height:1.65;color:#1a1a1a;background:#fafafa}
+h1{font-size:2rem;line-height:1.2;margin:0 0 0.5rem}h2{font-size:1.4rem;margin:2rem 0 0.75rem;color:#0c5cb6}
+.lead{font-size:1.15rem;color:#444;margin:0 0 2rem}
 .tag{display:inline-block;padding:0.15rem 0.6rem;background:#0c5cb6;color:#fff;font-size:0.75rem;border-radius:3px;margin-bottom:1rem}
+.headline-stat{padding:1.5rem;background:#fff;border:1px solid #ddd;border-left:4px solid #0c5cb6;border-radius:0 4px 4px 0;margin:1.5rem 0}
+.headline-stat .num{font-size:2.5rem;font-weight:700;color:#0c5cb6;line-height:1}
+.headline-stat .label{font-size:0.95rem;color:#444;margin-top:0.25rem}
 .callout{padding:1rem 1.25rem;background:#fff8e0;border-left:4px solid #d4a900;border-radius:0 4px 4px 0;margin:1.5rem 0}
-.callout h3{margin-top:0;color:#a07700}
 .related{padding:1rem 1.25rem;background:#f4f8fc;border-left:4px solid #0c5cb6;border-radius:0 4px 4px 0;margin:1.5rem 0}
 table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:0.95rem}
 th,td{padding:0.5rem 0.75rem;border:1px solid #ddd;text-align:left}
 th{background:#f0f4f8}
-ul,ol{padding-left:1.25rem}
+ul{padding-left:1.25rem}
 nav.breadcrumb{font-size:0.9rem;margin-bottom:1rem;color:#666}
 nav.breadcrumb a{color:#0c5cb6}
 footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #ddd;color:#666;font-size:0.9rem}
 a{color:#0c5cb6}</style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Chapter 13 Bankruptcy — Open Bankruptcy Project","description":"Educational reference on Chapter 13 bankruptcy: plan structure, confirmation requirements, modification, completion, discharge framework.","url":"https://chapter-13.openbankruptcyproject.org/"}
+{"@context":"https://schema.org","@type":"WebPage","name":"Chapter 13 Bankruptcy — Open Bankruptcy Project","description":"Chapter 13 hub: 41% discharge rate vs 37% dismissal (essentially coin flip), 4.7-year median completion. Plan structure, confirmation, modification, discharge.","url":"https://chapter-13.openbankruptcyproject.org/"}
 </script>
+
 </head>
 <body>
 <span class="tag">Open Bankruptcy Project</span>
 <h1>Chapter 13 Bankruptcy</h1>
-<p class="lead">Chapter 13 is a structured-payment-plan bankruptcy that allows individual debtors to keep property, cure secured-debt arrearages, and pay unsecured creditors over 3-5 years. This educational reference covers plan structure under § 1322, confirmation requirements under § 1325, plan modification, plan completion, and § 1328 discharge framework.</p>
+<p class="lead">Chapter 13 is a structured-payment-plan bankruptcy that allows individual debtors
+to keep property, cure secured-debt arrearages, and pay unsecured creditors over 3-5 years. This
+educational reference covers plan structure under § 1322, confirmation requirements under § 1325,
+plan modification, plan completion, and § 1328 discharge framework.</p>
+
+<h2>Empirical answers</h2>
+
+<div class="headline-stat">
+<div class="num">41.0%</div>
+<div class="label">Chapter 13 discharge rate across 98,114 cases analyzed. Plan-completion-and-discharge is the outcome for fewer than half of filings. Source: <a href="https://viz.openbankruptcyproject.org/outcomes-duration/">Outcomes &amp; Duration v0.1</a>.</div>
+</div>
+
+<div class="headline-stat">
+<div class="num">37.1%</div>
+<div class="label">Chapter 13 dismissal rate. Comparable to the discharge rate &mdash; Chapter 13 is essentially a coin flip on outcome. Most dismissals come from plan-payment defaults.</div>
+</div>
+
+<div class="headline-stat">
+<div class="num">~4.7 years</div>
+<div class="label">Median time from filing to discharge when the plan completes (1,728 days). Reflects standard 5-year plan duration with administrative wrap-up.</div>
+</div>
 
 <h2>What Chapter 13 does</h2>
 <p>Chapter 13 differs fundamentally from Chapter 7:</p>
@@ -68,23 +89,18 @@ a{color:#0c5cb6}</style>
 <li><a href="completion/">Plan completion and discharge</a></li>
 </ul>
 <div class="related">
-<strong>Related research:</strong>
+<strong>Related:</strong>
 <a href="https://chapter-7.openbankruptcyproject.org/">Chapter 7</a> &middot;
 <a href="https://chapter-13.openbankruptcyproject.org/">Chapter 13</a> &middot;
-<a href="https://means-test.openbankruptcyproject.org/">Means test</a> &middot;
 <a href="https://1328f.openbankruptcyproject.org/">§ 1328(f)</a> &middot;
-<a href="https://subv.openbankruptcyproject.org/">Subchapter V</a> &middot;
-<a href="https://automatic-stay.openbankruptcyproject.org/">Automatic stay</a> &middot;
-<a href="https://522d.openbankruptcyproject.org/">§ 522(d) exemptions</a> &middot;
-<a href="https://tax-debt.openbankruptcyproject.org/">Tax debt</a> &middot;
-<a href="https://medical-debt.openbankruptcyproject.org/">Medical debt</a> &middot;
-<a href="https://pro-se.openbankruptcyproject.org/">Pro se</a> &middot;
-<a href="https://eidl.openbankruptcyproject.org/">EIDL</a> &middot;
-<a href="https://studentloans.openbankruptcyproject.org/">Student loans</a> &middot;
-<a href="https://viz.openbankruptcyproject.org/">Visualizations</a>
+<a href="https://means-test.openbankruptcyproject.org/">Means test</a> &middot;
+<a href="https://viz.openbankruptcyproject.org/">Visualizations</a> &middot;
+<a href="https://github.com/openbankruptcyproject/obp-empirical-toolkit">Open-source toolkit</a>
 </div>
 <footer>
-<p>Educational content only. Not legal advice. <strong>Open Bankruptcy Project</strong> &mdash; 501(c)(3) public charity (EIN 41-5159631). <a href="https://openbankruptcyproject.org/">openbankruptcyproject.org</a></p>
+<p>Empirical research published under CC BY 4.0. Methodology and source code in the public toolkit repo.
+<strong>Open Bankruptcy Project</strong> &mdash; 501(c)(3) public charity (EIN 41-5159631).
+<a href="https://openbankruptcyproject.org/">openbankruptcyproject.org</a></p>
 </footer>
 </body>
 </html>
